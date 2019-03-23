@@ -1,0 +1,20 @@
+<wpdisplay msg=email.your> <wpdisplay msg=email.merchWPAcc><wpdisplay trans=accountId> 
+<wpdisplay msg=email.your> <wpdisplay msg=email.merchCart><wpdisplay trans=cartId>
+<wpdisplay trans=test-check true=|msg=email.test><wpdisplay msg=email.merchTranId><wpdisplay  
+trans=id default=|msg=unknown>
+<wpdisplay msg=email.genAt><wpdisplay trans=timeStr-reparse default=|msg=email.unknown> 
+<wpdisplay msg=email.merchSaleVal><wpdisplay trans=amount>
+
+<WPDISPLAY ITEM=MC_description>
+<WPDISPLAY ITEM=name>
+<WPDISPLAY ITEM=address>
+<WPDISPLAY ITEM=country>
+<WPDISPLAY ITEM=postcode>
+<WPDISPLAY ITEM=email>
+
+<WPDISPLAY ITEM=delvAddress>
+<WPDISPLAY ITEM=delvCountryString>
+<WPDISPLAY ITEM=delvName>
+<WPDISPLAY ITEM=delvPostcode>
+<wpdisplay msg=email.shopperIPAddress><wpdisplay trans=shopperIPAddress-reparse>
+
