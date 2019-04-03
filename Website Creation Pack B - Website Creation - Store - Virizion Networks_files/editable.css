@@ -1,0 +1,271 @@
+/*** editable ***/
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 300;
+}
+
+/* general content areas */
+
+.mz_editable {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-weight: 300;;
+}
+
+.mz_editable b {
+    font-weight: 600;
+}
+
+/* hyperlinks */
+
+a, .mz_editable a {
+    color: #4C92DA;
+    text-decoration: none;
+}
+
+a:hover, .mz_editable a:hover {
+    color: #666666;
+}
+
+/* bullet list in editable text */
+
+.mz_editable ul li {
+    list-style-type: square;
+}
+
+/* headings in editable text */
+
+.mz_editable h1, .mz_editable h1.moze-megatitle {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    color: #4C92DA;
+    margin-top: 0px;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.mz_editable h1:first-child {
+    border-left: 7px solid #EEEEEE;
+    padding-left: 12px;
+    margin-left: -12px;
+}
+.mz_rtl .mz_editable h1:first-child {
+    border-right: 7px solid #EEEEEE;
+    padding-right: 12px;
+    margin-right: -12px;
+    border-left: none;
+    padding-left: auto;
+    margin-left: auto;
+}
+
+.moze-megatitle {
+    font-size: 3.13rem !important;
+}
+
+.mz_editable h2, .sidebox h2 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #383838;
+    margin-bottom: 1.13rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.mz_editable h2:first-child, .sidebox h2 {
+    margin-top: 0px;
+}
+
+.mz_editable h3 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #383838;
+    font-weight: 600;
+}
+
+/* special text styles */
+
+.mz_editable .moze-important {
+    background-color: #FBF6D6;
+}
+
+.mz_editable .moze-secondary {
+    color: #999999;;
+}
+
+.mz_editable .moze-blockquote {
+    margin: 16px 0px 16px 20px;
+    border-left: 5px solid #EEEEEE;
+    padding: 10px;
+    background-color: #FFFFFF;
+    font-style: italic;
+    font-family: Georgia, serif
+}
+
+.mz_editable .moze-code {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4;
+    padding: 5px;
+    background-color: #F5F5F5;
+    margin: 16px 0px 16px 0px;
+}
+
+/* user inserted pictures */
+
+/* tables */
+
+.mz_editable table {
+    border-spacing: 1px;
+    border-collapse: collapse;
+    background-color: #FFFFFF
+}
+
+.mz_editable td {
+    padding: 5px;
+    margin: 0px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.mz_editable .moze-th {
+    background-color: #EEEEEE;
+    font-weight: normal;
+    border-bottom: none;
+    color: #383838
+}
+
+/* image galleries */
+
+ul.moze-gallery li {
+    background-color: #4C92DA;
+}
+
+/* webforms */
+
+.moze-form {
+    margin: 19px 0px;
+}
+
+.moze-form label {
+    margin: 0px 0px 4px 0px;
+    color: #383838
+}
+
+.moze-form input,
+.moze-form select,
+.moze-form textarea {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border: 1px solid #DDDDDD;
+    margin: 0px 0px 16px 0px;
+    color: #666666;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+.moze-form .moze-formbutton {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    background-color: #4C92DA;
+    margin: 16px 0px 0px 0px;
+    border-radius: 3px;
+}
+
+.moze-form .moze-formbutton:hover {
+    background-color: #3C424F;
+
+}
+
+/* invalid input style */
+
+.moze-form .moze-formerror
+{
+    border: 1px solid #CC6666;
+    box-shadow: 0px 0px 3px 0px #CC6666;
+}
+
+/* blog and articles */
+
+.mz_editable .moze-postdetails,
+.mz_editable .moze-postdetails a {
+    color: #999999;
+    text-decoration: none;
+    margin-top: -12px;
+    margin-bottom: 16px;
+}
+
+.mz_editable .moze-comment {
+    margin-bottom: 27px;
+    padding-bottom: 25px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.mz_editable .moze-comment div {
+
+    margin-bottom: 5px;
+}
+.mz_editable .moze-comment div:last-child {
+    margin-bottom: 0px;
+}
+
+.moze-button,
+.moze-button-large {
+    background-color: #4C92DA;
+    font-size: 16px;
+    border-radius: 19px;
+}
+
+.moze-button:hover,
+.moze-button-large:hover {
+    background-color: #A9ADB4;
+}
+
+.moze-button-large.btn-white,
+.moze-button.btn-alt,
+.moze-button-large.btn-alt {
+    color: #4C92DA;
+}
+
+.moze-button-large.btn-white:hover,
+.moze-button.btn-alt:hover,
+.moze-button-large.btn-alt:hover {
+    color: #A9ADB4;
+}
+
+.moze-button-large.btn-alt-light {
+    border-color: #4C92DA;
+}
+
+.moze-button-large.btn-alt-light:hover {
+    border-color: #A9ADB4;
+}
+
+.moze-button-large, .moze-form .moze-formbutton  {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* list of recent blog posts */
+
+.mz_recentposts a {
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.mz_recentposts ul {
+    padding: 0;
+    margin-bottom: 23px;
+}
+
+.mz_recentposts ul li {
+    margin-bottom: 14px;
+    line-height: 1.4;
+}
+
+.mz_recentposts ul li span {
+    color: #A9ADB4;
+    font-size: 14px
+}
