@@ -1,3 +1,7 @@
 # Redirect default Netlify subdomain to primary domain
 https://virizion-networks.netlify.com/* https://virizion-networks.co.uk/:splat 301!
-/public/home         /              301
+/public/home.html         /              301
+/public/404.html         /404              301
+/public/about-us.html         /about-us             301
+/public/ambitions.html         /our-ambitions              301
+/public/store.html         /store              301
